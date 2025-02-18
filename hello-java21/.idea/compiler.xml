@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hello-java21" />
+        <module name="module-main" />
+        <module name="module-reverse" />
       </profile>
     </annotationProcessing>
   </component>
