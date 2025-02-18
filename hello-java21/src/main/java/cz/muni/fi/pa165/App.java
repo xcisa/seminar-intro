@@ -9,8 +9,8 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         List<String> messages = new ArrayList<>();
-        messages.add("Hello");
-        messages.add("World");
+        messages.add(ReverseString.reverse("Hello"));
+        messages.add(ReverseString.reverse("World"));
         System.out.println(messages);
     }
 }
